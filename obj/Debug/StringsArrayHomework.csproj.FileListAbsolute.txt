@@ -1,0 +1,7 @@
+D:\CSharpWorks\GBHomeWorks\StringsArrayHomework\bin\Debug\StringsArrayHomework.exe.config
+D:\CSharpWorks\GBHomeWorks\StringsArrayHomework\bin\Debug\StringsArrayHomework.exe
+D:\CSharpWorks\GBHomeWorks\StringsArrayHomework\bin\Debug\StringsArrayHomework.pdb
+D:\CSharpWorks\GBHomeWorks\StringsArrayHomework\obj\Debug\StringsArrayHomework.csproj.AssemblyReference.cache
+D:\CSharpWorks\GBHomeWorks\StringsArrayHomework\obj\Debug\StringsArrayHomework.csproj.CoreCompileInputs.cache
+D:\CSharpWorks\GBHomeWorks\StringsArrayHomework\obj\Debug\StringsArrayHomework.exe
+D:\CSharpWorks\GBHomeWorks\StringsArrayHomework\obj\Debug\StringsArrayHomework.pdb

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace StringsArrayHomework
 {
@@ -10,6 +6,31 @@ namespace StringsArrayHomework
     {
         static void Main(string[] args)
         {
+            string[] array = { "Синий", "трактор", "клевый", "мультик", "!", ":-)" };
+            Console.WriteLine("Исходный массив:");
+
+            foreach (string item in array)
+            {
+                Console.Write(item + " ");
+            }
+
+            for (int i = 0; i < array.Length; i++)
+            {
+                if (array[i].Length > 3)
+                {
+                    array[i] = array[i].Substring(0, 3);
+                }
+            }
+
+            Console.WriteLine();
+            Console.WriteLine("Конечный массив:");
+            foreach (string item in array)
+            {
+                Console.Write(item + " ");
+            }
+
+            Console.ReadKey();
         }
     }
 }
+
