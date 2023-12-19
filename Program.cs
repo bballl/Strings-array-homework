@@ -6,9 +6,11 @@ namespace StringsArrayHomework
     {
         static void Main(string[] args)
         {
-            string[] array = { "Синий", "трактор", "клевый", "мультик", "!", ":-)" };
+            string[] array = { "Hello", "2", "world", ":-)" };
+            string[] newArray;
+            int counter = 0;
+            
             Console.WriteLine("Исходный массив:");
-
             foreach (string item in array)
             {
                 Console.Write(item + " ");
@@ -16,15 +18,27 @@ namespace StringsArrayHomework
 
             for (int i = 0; i < array.Length; i++)
             {
-                if (array[i].Length > 3)
+                if (array[i].Length <= 3)
                 {
-                    array[i] = array[i].Substring(0, 3);
+                    counter++;
+                }
+            }
+
+            newArray = new string[counter];
+            counter = 0;
+
+            for (int i = 0; i < array.Length; i++)
+            {
+                if (array[i].Length <= 3)
+                {
+                    newArray[counter] = array[i];
+                    counter++;
                 }
             }
 
             Console.WriteLine();
             Console.WriteLine("Конечный массив:");
-            foreach (string item in array)
+            foreach (string item in newArray)
             {
                 Console.Write(item + " ");
             }
